@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+.Qr-code {
+    
+    display: flex;
+    justify-content: center;
+    background-color: hsl(220, 15%, 55%);
+}
+
+.Qr-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Qr-code img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 15px;
+    width: 421px;
+}
+
+.Qr-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    height: 650px;
+    width: 500px;
+    margin: 25px;
+}
+
+.about {
+    width: 350px;
+   
+    text-align: center;
+}
+
+.about div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.attribution {
+    margin-top: 10px;
+}
